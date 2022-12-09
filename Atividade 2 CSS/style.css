@@ -1,0 +1,54 @@
+*
+{
+   
+  font-family: "Arial", Helvetica, sans-serif;
+  text-align: justify;
+  margin: 10px 40px;
+  font-size: 105%; 
+}
+
+.begin, .main_title
+{
+  text-align: center;
+}
+
+.intro
+{
+  text-decoration: underline;
+  font-style: italic;  
+}
+
+.titles, .main_title
+{
+    color: red;
+}
+
+p
+{
+  text-indent: 70px; 
+}
+
+p#font
+{
+  text-indent: 0px;
+  text-align: left;
+  padding: 0px;
+ 
+}
+
+a 
+{ 
+  margin: 0px; 
+}
+
+.italic
+{
+  font-style: italic;
+  margin: 0px;
+}
+
+.bold
+{
+  font-weight: bold;
+  margin: 0px;  
+}

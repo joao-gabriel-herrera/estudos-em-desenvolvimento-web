@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon" />
+    <title>Chronos</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="bkg" id="bkg">
+        <div id="title">
+          <img src="img\logo.png" alt="Chronos" id="logo" />
+          <h3>Chronos</h3>
+          <p id="header_txt2">Seu tempo nosso compromisso!</p>
+        </div>
+        <nav>
+          <a href="#bkg">Início</a>
+          <a href="#services_title">Soluções</a>
+          <a href="#client_box">Clientes</a>
+          <a href="#" id="myBtn">Cadastre-se</a>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <div class="form_header">
+                <h2>Formulário de cadastro</h2>
+                <span class="close">&times;</span>
+              </div>
+              <br />
+              <br />
+              <form>
+                <label class="required" for="document">Tipo de documento</label
+                ><br />
+                <select name="document" id="name" class="input">
+                  <option value="rg">RG</option>
+                  <option value="cpf" selected>CPF</option>
+                  <option value="cnh">CNH</option>
+                </select>
+                <br />
+                <label class="required" for="n_document">Documento*:</label
+                ><br />
+                <input
+                  id="n_document"
+                  class="input"
+                  name="n_document"
+                  type="text"
+                  value=""
+                  disabled
+                />
+                <br />
+                <p>Genêro*:</p>
+                <br />
+                <input
+                  type="radio"
+                  id="masculino"
+                  name="gender"
+                  value="masculino"
+                  checked
+                />
+                <label for="masculino">Masculino</label><br />
+                <input
+                  type="radio"
+                  id="feminino"
+                  name="gender"
+                  value="feminino"
+                />
+                <label for="feminino">Feminino </label><br />
+                <br />
+                <label for="dt_nascimento">Data de Nascimento</label><br />
+                <input
+                  type="date"
+                  id="dt_nascimento"
+                  name="nascimento"
+                  value=""
+                /><br />
+                <label class="required" for="name">Nome completo*:</label><br />
+                <input
+                  id="name"
+                  class="input"
+                  name="name"
+                  type="text"
+                  value=""
+                />
+                <br />
+                <label class="required" for="email">E-mail*:</label><br />
+                <input
+                  id="email"
+                  class="input"
+                  name="email"
+                  type="text"
+                  value=""
+                />
+                <br />
+                <label class="required" for="email2">Confirmar e-mail*:</label
+                ><br />
+                <input
+                  id="email2"
+                  class="input"
+                  name="email2"
+                  type="text"
+                  value=""
+                />
+                <br />
+                <label for="senha">Senha*:</label><br />
+                <input type="password" id="senha" name="Senha" value="" /><br />
+                <label for="senha2">Confirmar senha*:</label><br />
+                <input
+                  type="password"
+                  id="senha2"
+                  name="Senha2"
+                  value=""
+                /><br />
+                <label class="required" for="cel">Celular com DDD*:</label
+                ><br />
+                <input id="cel" class="input" name="cel" type="text" value="" />
+                <br />
+                <br />
+                <div id="options">
+                  <p>Desejo receber os seguintes informativos:</p>
+                  <input
+                    type="checkbox"
+                    id="option1"
+                    name="informativos"
+                    value="inf1"
+                    checked
+                  />
+                  <label for="option1"
+                    >Desejo receber informativos sobre novos serviços da
+                    Chronos.</label
+                  ><br />
+                  <input
+                    type="checkbox"
+                    id="option2"
+                    name="informativos"
+                    value="inf2"
+                    checked
+                  />
+                  <label for="option2"
+                    >Desejo receber notícias diárias da empresa Chronos</label
+                  ><br />
+                  <input
+                    type="checkbox"
+                    id="option3"
+                    name="informativos"
+                    value="inf3"
+                    required
+                  />
+                  <label for="option3"
+                    >Concordo com os termos da Chronos Technologies</label
+                  ><br />
+                </div>
+                <br />
+                <div id="facebook_register">
+                  <img
+                    src="img/social3.svg"
+                    alt="Facebook"
+                    class="register_elements"
+                  />
+                  <p class="register_elements">Cadastrar com Facebook</p>
+                </div>
+                <input
+                  id="submit_button"
+                  type="submit"
+                  value="Efetuar Cadastro"
+                />
+              </form>
+            </div>
+          </div>
+        </nav>
+        <p id="header_txt">Soluções tecnológicas na velocidade da luz</p>
+      </div>
+    </header>
+    <section>
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-title" id="gerenciamento-box">
+            <p>Quem somos?</p>
+          </div>
+          <div class="service-description">
+            <h3 id="gerenciamento-title">
+              Chronos: seu tempo, nosso compromisso!
+            </h3>
+            <p>
+              Aqui na Chronos seu tempo é nossa prioriadade, somos uma empresa
+              de tecnologia com mais de 10 anos no ramo, contamos hoje com um
+              time com mais de 4000 funcionários nas mais diversas localidades
+              do país! Junte se a nós e vemha pro lado inovar da força!
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-title" id="dev-box">
+            <p>O que fazemos?</p>
+          </div>
+          <div class="service-description">
+            <h3 id="dev-title">
+              Soluções técnologicas de forma rápida e eficiente!
+            </h3>
+            <p>
+              De sites a soluções de segurança, o principal diferencial da
+              Chronos é esse! tudo que seja tecnológico é com a gente! graças
+              aos mais de 4000 funcionários e 40 setores, hoje fazemos desde uma
+              implementação web até o cabeamento etruturado de sua empresa!
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-title" id="design-box">
+            <p>Qual nosso objetivo?</p>
+          </div>
+          <div class="service-description">
+            <h3 id="design-title">Velocidade, qualidade e inovação!</h3>
+            <p>
+              Esses são os pilares da Chronos, nosso objetivo no mercado é ser
+              referência em técnologia e inovação, alcançando novos clientes e
+              provando que sim!, existe trabalho de qualidade feito com
+              agilidade!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="curiosity">
+      <h2>#Curiosidade!</h2>
+      <br />
+      <p>
+        O nome Chronos vem do latim "Chronus" e signfica tempo, também conhecido
+        por saturno, deus romano do tempo quantitativo, na mitologia grega era a
+        personificação do tempo eterno e imortal, além disso governava sobre o
+        destino dos deuses imortais.
+      </p>
+    </div>
+    <section>
+      <h2 id="services_title">Confira nossos serviços abaixo:</h2>
+      <div id="servicos">
+        <div class="img_box">
+          <div class="float_info1">
+            <img src="img\float_img_1.png" alt="Redes" class="img_float" />
+            <h3>Redes</h3>
+            <br />
+            <p>
+              Contamos com as mais diversas soluções de rede, dentre elas,
+              cabeamento da sua empresa, montagem de servidores, configuração de
+              switches, suporte remoto, virtualização, soluções de internet e
+              muito mais...
+            </p>
+            <br />
+            <input id="details_button" type="button" value="Saiba mais" />
+          </div>
+          <div class="float_info2">
+            <img
+              src="img\float_img_2.png"
+              alt="Desenvolvimento"
+              class="img_float"
+            />
+            <h3>Desenvolvimento</h3>
+            <br />
+            <p>
+              Desenvolvemos para sua empresa o software que for pedido, desde
+              sua implementação web, banco de dados, frontend, backend,
+              aplicação mobile, distribuição personalidada unix e muito mais...
+            </p>
+            <br />
+            <input id="details_button" type="button" value="Saiba mais" />
+          </div>
+          <div class="float_info3">
+            <img src="img\float_img_3.png" alt="Segurança" class="img_float" />
+            <h3>Segurança</h3>
+            <br />
+            <p>
+              A segurança de sua empresa esta garantida com a Chronos, cuidamos
+              desde seu sistema de camêras até a implementação de IoT em toda
+              sua empresa, além da segurança digital de seus colaboladores e
+              setores, conosco você tem isso e muito mais...
+            </p>
+            <br />
+            <input id="details_button" type="button" value="Saiba mais" />
+          </div>
+        </div>
+      </div>
+      <h2 id="services_title2">
+        Confira relatos de alguns de nossos clientes:
+      </h2>
+      <h4 id="services_title3">
+        Obs: Clique nas imagens para ir para a página de nossos clientes!
+      </h4>
+
+      <br /><br />
+      <div id="client_box">
+        <a href="http://www.fatecpp.edu.br" target="_blank" class="client_link"
+          ><img src="img/client1.jpg" alt="clientes" id="client_img1"
+        /></a>
+        <p>
+          <span class="client_name">Júlio Santos:</span> Após contratar os
+          serviços da Chronos tive ganhos que jamais imagieni que fosse ter em
+          minha empresa, o sistema de redes e os apps que desenvolveram para mim
+          ajudaram muito a entender oque faltava para minha empresa atingir os
+          mais altos níveis de lucro, e posso dizer também que cumprem o que
+          dizem a respeito de tempo, em apenas 1 dia fizeram meu cabeamento e em
+          uma semana todo meu sistema foi entregue, desde a página web até o meu
+          aplicativo para smartphones! recomendo demais!
+        </p>
+        <br />
+        <a href="http://www.fatecpp.edu.br" target="_blank" class="client_link"
+          ><img src="img/client2.jpg" alt="clientes" id="client_img2"
+        /></a>
+        <p>
+          <span class="client_name">Mateus Figueiredo:</span> Após contratar os
+          serviços da Chronos tive ganhos que jamais imagieni que fosse ter em
+          minha empresa, o sistema de redes e os apps que desenvolveram para mim
+          ajudaram muito a entender oque faltava para minha empresa atingir os
+          mais altos níveis de lucro, e posso dizer também que cumprem o que
+          dizem a respeito de tempo, em apenas 1 dia fizeram meu cabeamento e em
+          uma semana todo meu sistema foi entregue, desde a página web até o meu
+          aplicativo para smartphones! recomendo demais!
+        </p>
+        <br />
+        <a href="http://www.fatecpp.edu.br" target="_blank" class="client_link"
+          ><img src="img/client3.jpg" alt="clientes" id="client_img3"
+        /></a>
+        <p>
+          <span class="client_name">Bruno Lopes:</span> Após contratar os
+          serviços da Chronos tive ganhos que jamais imagieni que fosse ter em
+          minha empresa, o sistema de redes e os apps que desenvolveram para mim
+          ajudaram muito a entender oque faltava para minha empresa atingir os
+          mais altos níveis de lucro, e posso dizer também que cumprem o que
+          dizem a respeito de tempo, em apenas 1 dia fizeram meu cabeamento e em
+          uma semana todo meu sistema foi entregue, desde a página web até o meu
+          aplicativo para smartphones! recomendo demais!
+        </p>
+      </div>
+      <br />
+      <footer>
+        <div id="footer">
+          <p>Nos encontre nas redes sociais!</p>
+          <div id="social_media">
+            <img
+              src="img\social1.svg"
+              alt="twitter"
+              class="social_media_icon"
+            />
+            <img
+              src="img\social2.svg"
+              alt="instagram"
+              class="social_media_icon"
+            />
+            <img
+              src="img\social3.svg"
+              alt="facebook"
+              class="social_media_icon"
+            />
+          </div>
+          <p>Chronos&copy; 2022</p>
+        </div>
+      </footer>
+      <script src="script/script.js"></script>
+    </section>
+  </body>
+</html>
